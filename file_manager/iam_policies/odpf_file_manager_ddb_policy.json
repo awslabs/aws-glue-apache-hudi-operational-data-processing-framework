@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:PutItem",
+                "dynamodb:DeleteItem",
+                "dynamodb:GetItem",
+                "dynamodb:Scan",
+                "dynamodb:Query",
+                "dynamodb:UpdateItem"
+            ],
+            "Resource": [
+                "arn:aws:dynamodb:{ADD_AWS_REGION_HERE}:{ADD_ACCOUNT_NUMBER_HERE}:table/odpf_file_tracker",
+                "arn:aws:dynamodb:{ADD_AWS_REGION_HERE}:{ADD_ACCOUNT_NUMBER_HERE}:table/odpf_file_tracker_history",
+                "arn:aws:dynamodb:{ADD_AWS_REGION_HERE}:{ADD_ACCOUNT_NUMBER_HERE}:table/odpf_file_processing_tracker",
+                "arn:aws:dynamodb:{ADD_AWS_REGION_HERE}:{ADD_ACCOUNT_NUMBER_HERE}:table/odpf_file_processing_tracker_history"
+            ]
+        }
+    ]
+}

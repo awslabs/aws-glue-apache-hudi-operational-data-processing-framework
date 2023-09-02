@@ -1,0 +1,15 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "SQSPolicy",
+            "Effect": "Allow",
+            "Action": [
+                "sqs:DeleteMessage",
+                "sqs:ReceiveMessage",
+                "sqs:GetQueueAttributes"
+            ],
+            "Resource": "arn:aws:sqs:{ADD_AWS_REGION_HERE}:{ADD_ACCOUNT_NUMBER_HERE}:odpf-file-manager-queue"
+        }
+    ]
+}

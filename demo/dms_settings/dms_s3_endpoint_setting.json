@@ -1,0 +1,12 @@
+{
+  "CsvRowDelimiter": "\\n",
+  "CsvDelimiter": ",",
+  "BucketFolder": "internal_staging",
+  "BucketName": "{S3_Staging_Bucket-Name}",
+  "CompressionType": "NONE",
+  "DataFormat": "parquet",
+  "EnableStatistics": true,
+  "DatePartitionEnabled": true,
+  "DatePartitionSequence": "yyyymmdd",
+  "DatePartitionDelimiter": "slash"
+}

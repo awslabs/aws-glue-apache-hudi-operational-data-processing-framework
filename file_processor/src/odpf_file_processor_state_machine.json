@@ -1,0 +1,61 @@
+{
+  "Comment": "A description of my state machine",
+  "StartAt": "Batch Generator Lambda",
+  "States": {
+    "Batch Generator Lambda": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::lambda:invoke",
+      "OutputPath": "$.Payload",
+      "Parameters": {
+        "Payload.$": "$",
+        "FunctionName": "arn:aws:lambda:{AWS REGION}:{AWS ACCOUNT}:function:odpf_batch_generator_lambda:$LATEST"
+      },
+      "Retry": [
+        {
+          "ErrorEquals": [
+            "Lambda.ServiceException",
+            "Lambda.AWSLambdaException",
+            "Lambda.SdkClientException"
+          ],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 2,
+          "BackoffRate": 2
+        }
+      ],
+      "Next": "File Batches"
+    },
+    "File Batches": {
+      "Type": "Map",
+      "End": true,
+      "Iterator": {
+        "StartAt": "File Processor Trigger Lambda",
+        "States": {
+          "File Processor Trigger Lambda": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::lambda:invoke",
+            "OutputPath": "$.Payload",
+            "Parameters": {
+              "Payload.$": "$",
+              "FunctionName": "arn:aws:lambda:{AWS REGION}:{AWS ACCOUNT}:function:odpf_file_processor_trigger_lambda:$LATEST"
+            },
+            "Retry": [
+              {
+                "ErrorEquals": [
+                  "Lambda.ServiceException",
+                  "Lambda.AWSLambdaException",
+                  "Lambda.SdkClientException"
+                ],
+                "IntervalSeconds": 2,
+                "MaxAttempts": 2,
+                "BackoffRate": 2
+              }
+            ],
+            "End": true
+          }
+        }
+      },
+      "ItemsPath": "$.Items",
+      "MaxConcurrency": 5
+    }
+  }
+}

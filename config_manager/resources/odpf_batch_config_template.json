@@ -1,0 +1,8 @@
+{
+    "refresh_cadence": "10_min_refresh",
+    "datalake_format": "hudi",
+    "glue_job_max_workers": 10,
+    "glue_job_name": "odpf_file_processor",
+    "glue_job_worker_type": "G.1X",
+    "refresh_tables_batch_size": "5"
+   }

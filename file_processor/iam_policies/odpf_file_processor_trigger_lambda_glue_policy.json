@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "glue:StartJobRun",
+                "glue:GetJobRun"
+            ],
+            "Resource": [
+                "arn:aws:glue:{ADD_AWS_REGION_HERE}:{ADD_ACCOUNT_NUMBER_HERE}:job/odpf-file-processor"
+            ]
+        }
+    ]
+}
