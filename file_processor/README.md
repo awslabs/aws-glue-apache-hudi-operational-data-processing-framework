@@ -14,7 +14,7 @@ File processor is the workhorse of ODP Framework. It processes files from stagin
     * [Architecture](#architecture)
 * [AWS Service Requirements](#aws-service-requirements)
 * [Manual Deployment](#manual-deployment)
-    * [Create Amazon S3 Bucket](#create-amazon-s3-bucket)
+    * [Create Amazon S3 Buckets](#create-amazon-s3-buckets)
     * [Create Amazon DynamoDB Tables](#create-amazon-dynamodb-tables)
     * [Deploy Batch Generator Lambda](#deploy-batch-generator-lambda)
     * [Deploy File Processor Glue Job Trigger Lambda](#deploy-file-processor-glue-job-trigger-lambda)
