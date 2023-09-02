@@ -7,7 +7,7 @@ Configuration Manager is used to insert Operational Tables' configuration detail
 ## Contents
 
 * [Architecture](#architecture)
-    * [Manifest-file-driven leveraging CI/CD Tooling and AWS Lambda](#manifest-file-driven-leveraging-CI-CD-Tooling-and-AWS-Lambda)
+    * [Manifest file driven leveraging CI/CD Tooling and AWS Lambda](#manifest-file-driven-leveraging-ci-cd-tooling-and-aws-lambda)
     * [Micro Frontend based solution](#micro-frontend-based-solution)
     * [Amazon DynamoDB Tables](#amazon-dynamodb-tables)
 * [Authors](#authors)
@@ -21,7 +21,7 @@ This current release of the ODP Framework provides two architecture patterns and
 
 ---
 
-### Manifest file driven leveraging CI/CD Tooling and AWS Lambda
+### Manifest file driven leveraging CI CD Tooling and AWS Lambda
 
 With this option, you will implement Configuration Manager as an AWS Lambda Function which processes JSON manifest 
 files from Amazon S3 bucket and inserts configuration record(s) to DynamoDB tables. Each configuration table needs a 
