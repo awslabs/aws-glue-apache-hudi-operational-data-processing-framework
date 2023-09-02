@@ -102,7 +102,7 @@ Follow the steps below:
 1.	Upload ```yellow_tripdata_2021-01.parquet``` file to the folder.
 1.	In Amazon S3, select S3 bucket ```odpf-demo-code-artifacts-<your-aws-account-id>```, and create a folder with name ```glue_scripts```.
 1.	Download file [load_nyc_taxi_data_to_rds_mysql.py](./src/load_nyc_taxi_data_to_rds_mysql.py) from GitHub repo and upload it to the folder ```glue_scripts```.
-1.	Create an AWS IAM Policy with name ```load_nyc_taxi_data_to_rds_mysql_s3_policy``` using [these](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html#access_policies_create-json-editor) instructions. Use [this](https://gitlab.aws.dev/operational_data_processing_data_lake/odp_framework_aws_glue_hudi/-/blob/main/testing/iam_policies/odpf_setup_test_data_glue_job_s3_policy.json) sample policy definition.
+1.	Create an AWS IAM Policy with name ```load_nyc_taxi_data_to_rds_mysql_s3_policy``` using [these](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html#access_policies_create-json-editor) instructions. Use [this](./iam_policies/odpf_setup_test_data_glue_job_s3_policy.json) sample policy definition.
 1.	Create an AWS IAM Role with name ```load_nyc_taxi_data_to_rds_mysql_role``` these instructions. Attach the policy created in the previous step.
 1.	In AWS Glue, create a connection for Amazon RDS database:
       1.	Follow the instructions from [here](https://docs.aws.amazon.com/glue/latest/dg/console-connections-jdbc-drivers.html) and [here](https://docs.aws.amazon.com/glue/latest/dg/setup-vpc-for-glue-access.html).
@@ -192,7 +192,7 @@ Follow the steps below:
 
 Follow the steps below:
 
-1.	Download file [load_ops_table_configs_to_ddb.py](https://gitlab.aws.dev/operational_data_processing_data_lake/odp_framework_aws_glue_hudi/-/blob/main/testing/src/load_ops_table_configs_to_ddb.py) from GitHub repo and upload it to the folder ```glue_scripts```.
+1.	Download file [load_ops_table_configs_to_ddb.py](./src/load_ops_table_configs_to_ddb.py) from GitHub repo and upload it to the folder ```glue_scripts```.
 1.	Create an AWS IAM Policy with name ```load_ops_table_configs_to_ddb_ddb_policy``` using [these](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html#access_policies_create-json-editor) instructions. Use [this](./iam_policies/odpf_setup_test_data_glue_job_ddb_policy.json) sample policy definition.
 1.	Create an AWS IAM Role with name ```load_ops_table_configs_to_ddb_role``` using [these](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-service.html#roles-creatingrole-service-console) instructions. Attach the policy created in the previous step.
 1.	In AWS Glue, select **Glue ETL jobs**, select **Python Shell script editor**, select **Upload and edit an existing script** under options, choose the file ```load_ops_table_configs_to_ddb.py```, click on **Create** and complete the remaining steps.
