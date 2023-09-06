@@ -2,9 +2,9 @@
 
 The Operational Data Processing Framework (ODP Framework) contains three components: 1/ File Manager, 2/ File Processor, and 3/ Configuration Manager. Each component runs independently to solve a portion of the operational data processing use case. The source code is organized in three folders – one for each component and if you customize and adopt this framework for your use cases, we recommend you to promote these components to three separate code repositories in your version control system. You can consider the following repository names:
 
-1.	`odp-framework-file-manager-aws-glue-hudi`
-2.	`odp-framework-file-processor-aws-glue-hudi`
-3.	`odp-framework-config-manager-aws-glue-hudi`
+1.	`aws-glue-hudi-odp-framework-file-manager`
+2.	`aws-glue-hudi-odp-framework-file-processor`
+3.	`aws-glue-hudi-odp-framework-config-manager`
 
 With this modular approach, you can independently deploy the components to your data lake environment by following your preferred [CI/CD Processes](https://docs.aws.amazon.com/whitepapers/latest/practicing-continuous-integration-continuous-delivery/what-is-continuous-integration-and-continuous-deliverydeployment.html). As illustrated in the Overall Architecture section, these components are deployed in conjunction with a Change Data Capture solution. For the sake of completeness, we assume that AWS DMS is used to migrate data from operational databases to Amazon S3 but skip its implementation specifics.
 
