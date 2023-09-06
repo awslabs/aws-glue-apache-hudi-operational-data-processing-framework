@@ -1,6 +1,6 @@
 # Operational Data Processing Framework - Configuration Manager
 
-Configuration Manager is used to insert Operational Tables' configuration details to `odpf_batch_config` and `odpf_raw_table_config` DynamoDB Tables which are used by the **File Processor**.
+Configuration Manager is used to insert Operational Tables' configuration details to `odpf_batch_config` and `odpf_raw_table_config` DynamoDB Tables which are used by the File Processor.
 
 ---
 
