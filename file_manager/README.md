@@ -62,7 +62,7 @@ Provisioning of AWS resources documented in this section are usually outside of 
 
 This section contains manual deployment instructions. 
 
-Note:
+**Note:**
 
 You can use AWS X-Ray to visualize AWS Lambda functions, identify performance bottlenecks, and troubleshoot requests that resulted in an error. Lambda functions send trace data to X-Ray, and X-Ray processes the data to generate a service map and searchable trace summaries. For more details, refer to [Using AWS Lambda with AWS X-Ray](https://docs.aws.amazon.com/lambda/latest/dg/services-xray.html).
 

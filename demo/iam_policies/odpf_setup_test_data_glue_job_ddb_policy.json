@@ -9,8 +9,8 @@
 				"dynamodb:GetItem"
 			],
 			"Resource": [
-				"arn:aws:dynamodb:us-west-2:{AWS ACCOUNT}:table/odpf_raw_table_config",
-				"arn:aws:dynamodb:us-west-2:{AWS ACCOUNT}:table/odpf_batch_config"
+				"arn:aws:dynamodb:{ADD_AWS_REGION_HERE}:{AWS ACCOUNT}:table/odpf_raw_table_config",
+				"arn:aws:dynamodb:{ADD_AWS_REGION_HERE}:{AWS ACCOUNT}:table/odpf_batch_config"
 			]
 		}
 	]

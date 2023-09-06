@@ -8,7 +8,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_1",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -22,7 +22,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_2",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -36,7 +36,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_3",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -50,7 +50,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_4",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -64,7 +64,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_5",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -78,7 +78,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_6",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -92,7 +92,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_7",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -106,7 +106,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_8",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -120,7 +120,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_9",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -134,7 +134,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_10",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -148,7 +148,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_11",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -162,7 +162,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_12",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -176,7 +176,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_13",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -190,7 +190,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_14",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -204,7 +204,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_15",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -218,7 +218,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_16",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -232,7 +232,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_17",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"
@@ -246,7 +246,7 @@
     "hudi_table_type": "copy_on_write",
     "is_active": "Y",
     "raw_database_name": "hudi_framework_poc_raw",
-    "raw_database_S3_bucket": "hudi-framework-poc-raw",
+    "raw_database_S3_bucket": "odpf-demo-raw-EXAMPLE-BUCKET",
     "raw_table_name": "poc_db_table_18",
     "table_data_versioning_type": "S",
     "table_storage_type": "hudi"

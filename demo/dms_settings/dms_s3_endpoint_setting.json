@@ -2,7 +2,7 @@
   "CsvRowDelimiter": "\\n",
   "CsvDelimiter": ",",
   "BucketFolder": "internal_staging",
-  "BucketName": "{S3_Staging_Bucket-Name}",
+  "BucketName": "odpf-demo-staging-EXAMPLE-BUCKET",
   "CompressionType": "NONE",
   "DataFormat": "parquet",
   "EnableStatistics": true,
